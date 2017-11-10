@@ -52,7 +52,7 @@ export default class Login extends Component<{}> {
               </Text>
               {/* <Image source={require('./img/logo.png')} style={{ width: 150, height: 150, marginBottom: 60 }}/> */}
               <TextInput style={styles.inputUser} placeholder='Masukan Email'/>
-              <TextInput style={styles.inputUser} placeholder='Masukan Password' type='password'/>
+              <TextInput secureTextEntry={true} style={styles.inputUser} placeholder='Masukan Password' type='password'/>
               <TouchableHighlight style={styles.buttonStyle} onPress={data}>
                 <Text style={styles.buttonText}>
                   Login
