@@ -17,7 +17,6 @@ import {
 } from 'react-native';
 
 import Login from './Login';
-
 const instructions = Platform.select({
   ios: 'Press Cmd+R to reload,\n' +
     'Cmd+D or shake for dev menu',
